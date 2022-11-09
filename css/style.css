@@ -52,13 +52,13 @@
         flex-direction: row;
     }
     .col-70, .col-33, .col-30{
-        margin: 20px 10px;
+        margin: 10px;
     }
     .col-70{
-        width: 70%;
+        width: calc(100%/3 * 2 - 20px);
     }
     .col-30{
-        width: 30%;
+        width: calc(100%/3 - 20px);
     }
     .col-33{
         width: calc(100% / 3);

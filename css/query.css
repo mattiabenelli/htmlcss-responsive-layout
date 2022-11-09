@@ -34,7 +34,7 @@
         justify-content: space-around;
         flex-direction: row;
     }
-    .container-strategic-app{
+    .container-strategic-app, .testimonial-container, .container-benefits, .about-container, .table-container{
         width: 80%;
     }
     .col-50{
@@ -43,31 +43,25 @@
     .testimonial-container .row{
         flex-direction: column;
     }
-    .testimonial-container{
-        width: 80%;
-    }
-    .container-benefits{
-        width: 80%;
-    }
     .benefit{
         width: calc(100% / 3);
     }
-    .about-us .row{
+    .about-container .row{
         display: flex;
         justify-content: space-around;
         flex-direction: row;
-    }   
+    }
+    .price-container, .footer-container{
+        width: 50%;
+    }  
 }
 
 /*schermo-grande*/
 @media screen and (min-width: 1200px){ 
-    .table-container{
+    .table-container, .testimonial-container, .container-benefits, .container-strategic-app, .about-container{
         width: 60%;
     }
-    .testimonial-container{
-        width: 60%;
-    }
-    .container-benefits{
-        width: 60%;    
+    .price-container, .footer-container{
+        width: 30%;
     }
 }

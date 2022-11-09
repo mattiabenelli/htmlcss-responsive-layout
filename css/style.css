@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 /* utilities */
+/* ***************************************************** */
 .row-header{
     display: flex;
     justify-content: space-around;
@@ -19,7 +20,8 @@
     display: flex;
 }
 
-/* header */
+/* header struttura */
+/* ***************************************************** */
 .header-container{
     background-color: #0084FD;
     height: 100px;
@@ -33,7 +35,8 @@
     margin-top: 25px;
 }
 
-/* main */
+/* main struttura */
+/* ***************************************************** */
 .table-container{
     width: 90%;
     margin: 0 auto;
@@ -45,32 +48,9 @@
     border: 1px solid black;
     background-color: #B5DDFF;
 }
-@media screen and (min-width: 768px) { /*tablet*/
-    .table-container .row{
-        display: flex;
-        justify-content: space-around;
-        flex-direction: row;
-    }
-    .col-70, .col-33, .col-30{
-        margin: 10px;
-    }
-    .col-70{
-        width: calc(100%/3 * 2 - 20px);
-    }
-    .col-30{
-        width: calc(100%/3 - 20px);
-    }
-    .col-33{
-        width: calc(100% / 3);
-    }
-}
-@media screen and (min-width: 1200px){ /*schermo-grande*/
-    .table-container{
-        width: 60%;
-    }
-}
 
 
+/* container stratigh-app */
 .blue-container{
     background-color: #9792E4;
     width: 100%;
@@ -87,25 +67,8 @@
     background-color: antiquewhite;
 
 }
-@media screen and (min-width: 992px){ /*schermo-medio*/
-    .row{
-        display: flex;
-        justify-content: space-around;
-        flex-direction: row;
-    }
-    .container-strategic-app{
-        width: 80%;
-    }
-    .col-50{
-        margin: 0 20px;
-    }   
-}
-@media screen and (min-width: 1200px){ /*schermo-grande*/
-    .container-strategic-app{
-        width: 60%;
-    }
-}
 
+/* container testimonial */
 .testimonial-container{
     width: 90%;
     margin: 0 auto;
@@ -122,16 +85,22 @@
     border: 1px solid black;
     background-color: purple;
 }
-@media screen and (min-width: 992px){ /*schermo-medio*/
-    .testimonial-container .row{
-        flex-direction: column;
-    }
-    .testimonial-container{
-        width: 80%;
-    }
+
+/* container benfit */
+.container-benefits{
+    width: 90%;
+    margin: 0 auto;
 }
-@media screen and (min-width: 1200px){ /*schermo-grande*/
-    .testimonial-container{
-        width: 60%;
-    }
+.benefit-text{
+    height: 100px;
+    border: 1px solid black;
+    background-color: aqua;
+    margin: 20px 0;
+}
+.benefit{
+    width: 100%;
+    margin: 20px 0;
+    height: 200px;
+    border: 1px solid black;
+    background-color: aliceblue;
 }

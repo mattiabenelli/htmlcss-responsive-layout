@@ -24,11 +24,6 @@
 
 /*schermo-medio*/
 @media screen and (min-width: 992px){ 
-    .row{
-        display: flex;
-        justify-content: space-around;
-        flex-direction: row;
-    }
     .container-strategic-app{
         width: 80%;
     }

@@ -2,5 +2,26 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: aqua;
+}
+/* utilities */
+.row{
+    display: flex;
+    justify-content: space-around;
+}
+.align-items{
+    align-items: center;
+}
+
+/* header */
+.header-container{
+    background-color: #0084FD;
+    height: 100px;
+    width: 100%;
+}
+.col-container{
+    background-color: bisque;
+    border: 1px solid black;
+    height: 50px;
+    width: 50%;
+    margin-top: 25px;
 }

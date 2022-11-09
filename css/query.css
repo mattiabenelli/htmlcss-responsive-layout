@@ -40,6 +40,12 @@
     }
     .testimonial-container{
         width: 80%;
+    }
+    .container-benefits{
+        width: 80%;
+    }
+    .benefit{
+        width: calc(100% / 3);
     }   
 }
 

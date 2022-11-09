@@ -97,6 +97,10 @@
     background-color: aqua;
     margin: 20px 0;
 }
+.benefit-cards{
+    display: flex;
+    flex-wrap: wrap;
+}
 .benefit{
     width: 100%;
     margin: 20px 0;

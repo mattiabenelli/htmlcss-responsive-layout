@@ -116,10 +116,8 @@
 }
 .col-40, .col-60{
     width: 100%;
-    height: 200px;
     margin: 20px auto;
     border: 1px solid black;
-    background-color: #B5DDFF;
 }
 /* price container */
 .price-container{
@@ -309,4 +307,41 @@
 .benefit-card-button{
     padding: 20px 0;
     font-size: 20px;
+}
+
+/* container about us */
+.about-left-col-title{
+    color: #9792E4;
+    font-size: 60px;
+    margin: 50px 0 20px;
+}
+.about-left-col-paragraph{
+    line-height: 2;
+    font-size: 20px;
+    color: #333333;
+}
+.about-right-col-profile {
+    position: relative;
+    width: 320px;
+}
+.about-right-col-profile-img img{
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+}
+.about-right-col-profile-tick{
+    font-size: 70px;
+    color: #9792E4;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.about-right-col-quote{
+    font-size: 40px;
+    color: #9792E4;
+    margin-top: 20px;
+}
+.about-right-col-button{
+    margin: 20px 0 80px;
 }

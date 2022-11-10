@@ -24,15 +24,10 @@
 /* ***************************************************** */
 .header-container{
     background-color: #0084FD;
-    height: 100px;
     width: 100%;
 }
 .col-container{
-    background-color: bisque;
-    border: 1px solid black;
-    height: 50px;
     width: 50%;
-    margin-top: 25px;
 }
 
 /* main struttura */
@@ -151,4 +146,17 @@
 }
 .gray-container{
     background-color: #333333;
+}
+
+/* header stile */
+/* ***************************************************** */
+.logo-header{
+    margin-left: 20px;
+    padding: 20px 0;
+}
+.menu-header{
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    margin-right: 30px;
 }

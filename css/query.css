@@ -1,7 +1,6 @@
 /*tablet*/
 @media screen and (min-width: 768px) { 
     .table-container .row{
-        display: flex;
         justify-content: space-around;
         flex-direction: row;
     }
@@ -21,7 +20,6 @@
         width: 50%;
     }
     .about-container .row{
-        display: flex;
         justify-content: space-around;
         flex-direction: row;
     }
@@ -30,7 +28,6 @@
 /*schermo-medio*/
 @media screen and (min-width: 992px){ 
     .container-strategic-app .row{
-        display: flex;
         justify-content: space-around;
         flex-direction: row;
     }

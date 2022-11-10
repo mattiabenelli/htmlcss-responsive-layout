@@ -27,9 +27,18 @@
     background-color: #9792E4;
     width: 100%;
 }
+.white-container{
+    background-color: white;
+}
+.btn-blue{
+    background-color: #0084FD;
+    color: white;
+    border: 1px solid #0084FD;
+}
 .btn-big{
     width: 100%;
-    padding: 10px 0;    
+    padding: 10px 0;
+    border-radius: 50px;    
 }
 .font-bigger{
     font-size: 20px;
@@ -61,18 +70,14 @@
 }
 
 
-/* container stratigh-app */
+/* container strategic-app */
 .container-strategic-app{
-    width: 90%;
+    width: 80%;
     margin: 10px auto;
 }
 .col-50{
     width: 100%;
     margin: 20px 0;
-    height: 400px;
-    border: 1px solid black;
-    background-color: antiquewhite;
-
 }
 
 /* container testimonial */
@@ -160,8 +165,11 @@
     background-color: #333333;
 }
 
-/* header stile */
+
+/* main stile */
 /* ***************************************************** */
+
+/* first table */
 .logo-header{
     margin-left: 20px;
     padding: 20px 0;
@@ -198,4 +206,43 @@
 .table-card-icon i{
     color: #0084FD;
     font-size: 100px;
+}
+
+/*strategic-app */
+.strategic-card{
+    color: white;
+}
+.strategic-card-img img{
+    width: 90%;
+}
+.strategic-card-title{
+    font-size: 40px;
+    padding: 30px 0;
+}
+.strategic-card-text{
+    line-height: 1.5;
+}
+.app-card{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+.app-card-img img{
+    width: 90%;
+}
+.app-card-title{
+    font-size: 30px;
+}
+.app-card-text{
+    font-style: italic;
+    color: #333333;
+    margin: 20px 0;
+    line-height: 1.5;
+}
+.app-card-arrow{
+    background-color: #9792E4;
+    padding: 10px;
+    width: 10%;
+    border-radius: 100%;
+    font-size: 20px;
 }

@@ -20,12 +20,30 @@
 .flex{
     display: flex;
 }
+.lightblue-container{
+    background-color: #B5DDFF;
+}
+.blue-container{
+    background-color: #9792E4;
+    width: 100%;
+}
+.btn-big{
+    width: 100%;
+    padding: 10px 0;    
+}
+.font-bigger{
+    font-size: 20px;
+}
+.border-radius{
+    border-radius: 30px;
+}
 
 /* header struttura */
 /* ***************************************************** */
 .header-container{
     background-color: #0084FD;
     width: 100%;
+    margin-bottom: 40px;
 }
 .col-container{
     width: 50%;
@@ -39,18 +57,11 @@
 }
 .col-70, .col-30, .col-33{
     width: 100%;
-    height: 200px;
-    margin: 20px auto;
-    border: 1px solid black;
-    background-color: #B5DDFF;
+    margin: 10px auto;
 }
 
 
 /* container stratigh-app */
-.blue-container{
-    background-color: #9792E4;
-    width: 100%;
-}
 .container-strategic-app{
     width: 90%;
     margin: 10px auto;
@@ -162,6 +173,29 @@
     margin-right: 30px;
 }
 .table-card{
-    background-color: #B5DDFF;
     width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+.table-card-title{
+    color: #0084FD;
+    font-size: 25px;
+    padding: 20px 0;
+}
+.table-card-text{
+    color: #5A6E7F;
+    padding-bottom: 40px;
+}
+.table-card-img{
+    padding-top: 20px;
+}
+.table-card-img img{
+    width: 100%;
+}
+.table-card-icon{
+    padding-top: 30px;
+}
+.table-card-icon i{
+    color: #0084FD;
+    font-size: 100px;
 }

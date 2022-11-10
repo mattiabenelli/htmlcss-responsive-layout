@@ -35,10 +35,20 @@
     color: white;
     border: 1px solid #0084FD;
 }
+.btn-purple-blue{
+    background-color: #9792E4;
+    color: white;
+    border: 1px solid #9792E4;
+}
 .btn-big{
     width: 100%;
     padding: 10px 0;
     border-radius: 50px;    
+}
+.btn-medium{
+    width: 70%;
+    padding: 10px 0;
+    border-radius: 50px;
 }
 .font-bigger{
     font-size: 20px;
@@ -46,7 +56,9 @@
 .border-radius{
     border-radius: 30px;
 }
-
+.margin-card{
+    margin-bottom: 40px;
+}
 /* header struttura */
 /* ***************************************************** */
 .header-container{
@@ -92,24 +104,10 @@
     width: 90%;
     margin: 0 auto;
 }
-.benefit-text{
-    height: 100px;
-    width: 100%;
-    border: 1px solid black;
-    background-color: aqua;
-    margin: 20px 0;
-}
 .benefit-cards{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-}
-.benefit{
-    width: 100%;
-    margin: 20px 0;
-    height: 200px;
-    border: 1px solid black;
-    background-color: aliceblue;
 }
 /* container about us */
 .about-container{
@@ -281,4 +279,34 @@
 .testimonial-card-name{
     font-size: 25px;
     padding: 30px 0 20px;
+}
+
+/* container benfit */
+.benefit-card{
+    width: 80%;
+    margin: 0 auto;
+}
+.benefit-title{
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    margin: 40px 0;    
+}
+.benefit-card-number{
+    color: #9792E4;
+    font-size: 60px;
+    padding-top: 20px;
+}
+.benefit-card-title{
+    color: #9792E4;
+    font-size: 30px;
+    margin: 20px 0;
+}
+.benefit-card-paragraph{
+    color: #5A6E7F;
+    line-height: 1.5;
+}
+.benefit-card-button{
+    padding: 20px 0;
+    font-size: 20px;
 }

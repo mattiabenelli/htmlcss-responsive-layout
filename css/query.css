@@ -16,8 +16,8 @@
     .col-33{
         width: calc(100% / 3);
     }
-    .benefit{
-        width: 50%;
+    .benefit-card{
+        width: calc(50% - 40px);
     }
     .about-container .row{
         justify-content: space-around;
@@ -37,7 +37,14 @@
         min-height: 500px;
         max-height: 500px;
     }
-
+    .testimonial-card{
+        display: flex;
+        text-align: left;
+        padding: 40px 0;
+    }
+    .testitmonial-card-text{
+        padding-left: 40px;
+    }
 
 }
 

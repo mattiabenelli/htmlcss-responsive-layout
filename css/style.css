@@ -91,6 +91,9 @@
     justify-content: center;
     align-items: center;
 }
+.menu-list{
+    display: none;
+}
 /* main struttura */
 /* ***************************************************** */
 .table-container{

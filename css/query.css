@@ -67,6 +67,9 @@
     .menu-hamburger{
         display: block;
     }
+    .menu-list{
+        display: none;
+    }
 
 }
 
@@ -85,8 +88,11 @@
     .testimonial-container .row{
         flex-direction: column;
     }
-    .benefit{
-        width: calc(100% / 3);
+    .benefit-card{
+        width: calc((100% / 3) - 40px);
+    }
+    .benefit-card-title{
+        font-size: 25px;
     }
     .about-container .row{
         display: flex;
@@ -104,6 +110,26 @@
     }
     .menu-list{
         margin-right: 20%;
+        display: block;
+    }
+    .table-container{
+        margin-bottom: 100px;
+    }
+    .container-strategic-app{
+        padding: 100px 0 50px;
+    }
+    .strategic-card-title{
+        padding: 200px 0 40px;
+    }
+    .app-card{
+        margin-top: 200px;
+    }
+    .col-60{
+        width: 70%;
+    }
+    .col-40{
+        width: 30%;
+        margin-top: 60px;
     }
   
 }

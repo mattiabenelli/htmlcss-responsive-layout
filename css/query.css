@@ -27,15 +27,17 @@
         width: 50%;
     }
     .col-70 .table-card{
-        text-align: left;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: unset;  
+        
     }
     .table-card-img img{
-        max-height: 240px;
-        width: 50%;
+        max-height: 400px;
     }
     .col-30 .table-card, .col-70 .table-card{
-        min-height: 500px;
-        max-height: 500px;
+        min-height: 650px;
     }
     .testimonial-card{
         display: flex;
@@ -131,6 +133,23 @@
         width: 30%;
         margin-top: 60px;
     }
+    .col-70 .table-card{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+    .table-card-img img{
+        width: 300px;
+    }
+    .table-card-img{
+        text-align: end;
+    }
+    .card-col-sx, .card-col-dx{
+        width: 45%;
+    }
+    .col-30 .table-card, .col-70 .table-card{
+        min-height: 380px;
+    }
   
 }
 
@@ -147,6 +166,12 @@
     }
     .menu-list{
         margin-right: 40%;
+    }
+    .col-30 .table-card, .col-70 .table-card{
+        min-height: 390px;
+    }
+    .table-card-img img{
+        object-fit: fill;
     }
     
 }

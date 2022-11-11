@@ -23,6 +23,22 @@
         justify-content: space-around;
         flex-direction: row;
     }
+    .btn-big{
+        width: 50%;
+    }
+    .col-70 .table-card{
+        text-align: left;
+    }
+    .table-card-img img{
+        max-height: 240px;
+        width: 50%;
+    }
+    .col-30 .table-card, .col-70 .table-card{
+        min-height: 500px;
+        max-height: 500px;
+    }
+
+
 }
 
 /*schermo-medio*/

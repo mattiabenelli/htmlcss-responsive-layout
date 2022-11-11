@@ -55,6 +55,10 @@
     padding: 10px 0;
     border-radius: 50px;
 }
+.btn-small{
+    padding: 10px;
+    border-radius: 20px;
+}
 .font-bigger{
     font-size: 20px;
 }
@@ -76,6 +80,16 @@
 }
 .underline{
     text-decoration: underline;
+}
+.menu-list li{
+    list-style-type: none;
+    margin-left: 20px;
+    color: white;
+}
+.menu-list ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /* main struttura */
 /* ***************************************************** */
@@ -158,9 +172,8 @@
     margin-left: 20px;
     padding: 20px 0;
 }
-.menu-header{
-    display: flex;
-    justify-content: flex-end;
+.menu-hamburger{
+    text-align: right;
     color: white;
     margin-right: 30px;
 }

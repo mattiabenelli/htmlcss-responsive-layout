@@ -64,6 +64,9 @@
     .about-container{
         margin-bottom: 150px;
     }
+    .menu-hamburger{
+        display: block;
+    }
 
 }
 
@@ -92,7 +95,17 @@
     }
     .price-container, .footer-container{
         width: 50%;
-    }  
+    }
+    .menu-hamburger{
+        display: none;
+    }
+    .logo-header{
+        margin-left: 20%;
+    }
+    .menu-list{
+        margin-right: 20%;
+    }
+  
 }
 
 /*schermo-grande*/
@@ -103,4 +116,11 @@
     .price-container, .footer-container{
         width: 30%;
     }
+    .logo-header{
+        margin-left: 40%;
+    }
+    .menu-list{
+        margin-right: 40%;
+    }
+    
 }

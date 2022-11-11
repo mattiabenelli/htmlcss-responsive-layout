@@ -4,7 +4,7 @@
         justify-content: space-around;
         flex-direction: row;
     }
-    .col-70, .col-33, .col-30, .col-40, .col-60{
+    .col-70, .col-33, .col-30{
         margin: 10px;
     }
     .col-70{
@@ -44,6 +44,25 @@
     }
     .testitmonial-card-text{
         padding-left: 40px;
+    }
+    .about-right-col-profile-img img{
+        width: 200px;
+        height: 200px;
+    }
+    .about-right-col-profile{
+        width: 220px;
+    }
+    .col-60{
+        margin: 0 30px;
+    }
+    .col-40{
+        margin: 100px 30px;
+    }
+    .font-bigger{
+        font-size: 15px;
+    }
+    .about-container{
+        margin-bottom: 150px;
     }
 
 }

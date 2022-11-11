@@ -377,6 +377,9 @@
 /* ***************************************************** */
 .footer-col-container{
     color: white;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
 }
 .footer-col-container-section-2{
     margin:80px 0 20px;
